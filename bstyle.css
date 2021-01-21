@@ -1,0 +1,103 @@
+.apic
+{border-radius: 50px;
+ width: 50px;
+height: 50px;
+vertical-align: middle;
+}
+.apic:hover {
+  border-radius: 0px;
+  width: 300px;
+  height: 300px;
+}
+body{
+  color: #555;
+  margin: 0px;
+  background-color: pink;
+}
+#header {
+  background-color: teal;
+  height: 150px;
+line-height: 150px;
+}
+#header a {
+  color: pink;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+#header a:hover {
+  color: gold;
+}
+#header-title {
+  display: block;
+  float: left;
+
+  font-size: 20px;
+  font-weight: bold;
+}
+#header-nav{
+  display: block;
+  float: right;
+  margin-top: 0;
+}
+#header-nav li{
+  display: inline;
+  padding-left: 20px;
+}
+#htitle{
+  display: block;
+  text-align: center;
+  color: pink;
+}
+.container{
+  max-width: 1000px;
+  margin: auto;
+}
+#footer {
+  background-color: teal;
+  padding: 50px 0;
+}
+#footer h4 {
+color: pink;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+}
+#footer p {
+  color: pink;
+}
+#footer a {
+  color: pink;
+  text-decoration: none;
+}
+.column {
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+.post, .about {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+.post-author span {
+  margin-left: 16px;
+}
+.post-date {
+  color: teal;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+h1, h2, h3, h4 {
+  color: teal
+}
+p {
+  line-height: 1.5;
+}
+.about {
+  text-align: center;
+}
+post-container:nth-child(even) {
+  background-color: white;
+}
